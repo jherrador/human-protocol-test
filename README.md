@@ -21,7 +21,7 @@ Contracts:
 ## Installation
 1. Run the initial script
 	```shell
-    run ./build.sh
+    ./build.sh
     ```
 2. Create a copy of .env.example and rename it to .env inside the /human-protocol-backend
     ```shell
