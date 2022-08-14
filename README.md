@@ -3,12 +3,12 @@
 This project contains a hardhat and nodeJS projects with the blockchain interaction.
 
 Contracts:
-- *HumanProtocolStaking* => Staking contract, to be able to create new escrows.
-- *StakingRewardsPool* => Rewards to distribute the slashed tokens of bad actors
-- *MyToken=> Standard ERC20 token to interact with staking
-- *Escrow* => copy of Human Protocol Escrow contract
-- *EscrowFactory* => copy of Human Protocol EscrowFactory contract
-- *SafeMath* => copy of Human Protocol SafeMath contract
+- ***HumanProtocolStaking*** => Staking contract, to be able to create new escrows.
+- ***StakingRewardsPool*** => Rewards to distribute the slashed tokens of bad actors
+- ***MyToken***=> Standard ERC20 token to interact with staking
+- ***Escrow*** => copy of Human Protocol Escrow contract
+- ***EscrowFactory*** => copy of Human Protocol EscrowFactory contract
+- ***SafeMath*** => copy of Human Protocol SafeMath contract
 
 ## Architecture
 ![alt text](./architecture.png)
