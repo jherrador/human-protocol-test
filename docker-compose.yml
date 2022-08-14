@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  ganache:
+    build:
+      context: .
+      target: ganache
+    ports:
+      - 8545:8545
+    networks:
+      - backend
+    command: ganache-cli --host 0.0.0.0
+networks:
+  backend:
+    driver: "bridge"
